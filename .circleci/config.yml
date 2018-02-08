@@ -27,3 +27,12 @@ jobs:
       - run:
         name: Deploy Podspec
         command: pod trunk push
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
+  deploy_podspec:
+    jobs:
+      - build
+      - deploy
