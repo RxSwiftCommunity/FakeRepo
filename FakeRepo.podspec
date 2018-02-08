@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "Shai Mishali" => "freak4pc@gmail.com" }
   s.source       = { :git => "https://github.com/RxSwiftCommunity/FakeRepo.git", :tag => "#{s.version}" }
-  s.swift_version = '4.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files  = "Sources/**/*.swift"

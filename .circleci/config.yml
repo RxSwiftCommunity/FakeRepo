@@ -22,9 +22,7 @@ jobs:
       xcode: "9.0"
 
     steps:
-      - run:
-          name: Update Cocoapods
-          command: sudo gem update cocoapods
+      - checkout
 
       - run:
           name: Deploy Podspec
