@@ -16,3 +16,9 @@ test:
     - set -o pipefail
   override:
     - xcodebuild build -scheme FakeExample -workspace FakeExample/FakeExample.xcworkspace -sdk iphonesimulator -destination "name=iPhone 8" | xcpretty -c
+
+deployment:
+  release:
+    tag: /*/
+    commands:
+      - pod trunk push FakeRepo
