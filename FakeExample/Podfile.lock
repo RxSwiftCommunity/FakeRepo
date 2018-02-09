@@ -1,0 +1,16 @@
+PODS:
+  - FakeRepo (0.0.1)
+
+DEPENDENCIES:
+  - FakeRepo (from `../`)
+
+EXTERNAL SOURCES:
+  FakeRepo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FakeRepo: 1402de4ea6595f973c3a6d0dce23f5a9e07e241e
+
+PODFILE CHECKSUM: 176b3719145c2b67f0d50a0abf86a9a4b648315c
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,5 @@
+target 'FakeExample' do
+  use_frameworks!
+
+  pod 'FakeRepo', :path => '../'
+end
