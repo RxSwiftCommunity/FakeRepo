@@ -21,4 +21,4 @@ deployment:
   release:
     tag: /[0-9]+(\.[0-9]+)*/
     commands:
-      - pod trunk push
+      - pod trunk push --skip-tests --allow-warnings --verbose &> $CIRCLE_ARTIFACTS/pod_trunk_push.log
