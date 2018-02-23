@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FakeRepo"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.homepage     = "http://github.com/RxSwiftCommunity"
   s.summary      = "FakeRepo is quite the fake repo for testing some things so ill have to make it long so its relatively meaningful by lint"
   s.description  = <<-DESC
